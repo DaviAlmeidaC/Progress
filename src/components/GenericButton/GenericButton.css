@@ -1,0 +1,17 @@
+.generic-button {
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  transition: all 200ms;
+}
+
+.generic-button:hover {
+  transform: scale(1.02);
+}
+
+.icon {
+  font-size: '2rem';
+}
